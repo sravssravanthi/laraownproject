@@ -1,0 +1,15 @@
+<form>
+
+  <div>Enter your Email <input type="text" name="username" placeholder="Enter your username" 
+  [(ngModel)]= "mylogin.username"></div>
+  <div>Enter your Password <input type="password" name="password" placeholder="Enter your password"
+  [(ngModel)]= "mylogin.password"> </div>
+  <div>
+    <button type="submit" class="btn-btn-success mt-3"
+    (click)="login();">Login</button>
+  </div>
+
+  <div>
+   <a [routerLink]="['/authentication/signup']"> if Not Registered Clickhere for Signup</a>
+  </div>
+</form>

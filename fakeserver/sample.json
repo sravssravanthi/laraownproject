@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "name": "sravan",
+      "email": "sravsladdu@gmail.com",
+      "newpassword": "welcome@123",
+      "confirmnewpassword": "welcome@123",
+      "phone": "909943555",
+      "id": 1
+    },
+    {
+      "name": "ashwitha",
+      "email": "ashwitha@gmail.com",
+      "newpassword": "welcome@123",
+      "confirmnewpassword": "welcome@123",
+      "phone": "89344567888",
+      "id": 2
+    },
+    {
+      "username": "krishh",
+      "password": "welcome",
+      "email": "krishna@gmail.com",
+      "mobile": 1234567895,
+      "confirmpassword": null,
+      "password1": "welcome",
+      "id": 3
+    },
+    {
+      "username": "satya",
+      "password": "satya",
+      "email": "satya@gmail.com",
+      "mobile": 123658974,
+      "confirmpassword": null,
+      "password1": "satya",
+      "id": 4
+    },
+    {
+      "username": "Madhav",
+      "password": "welcome",
+      "email": "madhav@gmail.com",
+      "mobile": 9966338855,
+      "confirmpassword": null,
+      "password1": "welcome",
+      "id": 5
+    }
+  ]
+}

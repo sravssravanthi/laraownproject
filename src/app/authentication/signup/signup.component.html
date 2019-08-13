@@ -1,0 +1,62 @@
+<form>
+
+    <div>Enter Full Name: <input type="text" name="username" placeholder="Enter your Fullname" 
+    [(ngModel)]= "mysignup.username"></div>
+    <div>Enter First Name: <input type="text" name="firstname" placeholder="Enter your Fullname" 
+      [(ngModel)]= "mysignup.firstname"></div>
+      <div>Enter Last Name: <input type="text" name="lastname" placeholder="Enter your Fullname" 
+        [(ngModel)]= "mysignup.lastname"></div>
+
+    <div>Enter Email: <input type="text" name="email" placeholder="Enter your Email" 
+      [(ngModel)]= "mysignup.email"></div>
+
+    <div> Create New Password: <input type="password" name="password" placeholder="Enter your password"
+    [(ngModel)]= "mysignup.password"> </div>
+  
+    <div> Confirm New Password: <input type="password" name="password1" placeholder="Confirm your password"
+    [(ngModel)]= "mysignup.password1"> </div>
+     
+    <div>Mobile: <input type="number" name="mobile" placeholder="Enter your Mobile Number"
+    [(ngModel)]= "mysignup.mobile"> </div>
+          <div>
+      <button type="submit" class="btn-btn-success mt-3"
+      (click)="submit();">submit</button>
+
+          </div>
+  </form>
+  <button [routerLink]="['/authentication/login']"> Login</button>
+
+
+
+<!-- <p>
+signup works!
+</p>
+<div>
+<button [routerLink]="['/authentication/login']"> Login</button>
+</div> -->
+Use this code for shortcut table= table.table.table-bordered.table-stripped
+<!-- table.table.table-bordered.table-stripped -->
+<table class="table table-bordered table-stripped">
+  <thead>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+    </tr>
+    
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of registration">
+        <td>{{item.id}}</td>
+        <td>{{item.username}}</td>
+        <td>{{item.firstname}}</td>
+        <td>{{item.lastname}}</td>
+        <td>{{item.email}}</td>
+        <td>{{item.mobile}}</td>
+
+    </tr>
+  </tbody>
+</table>
